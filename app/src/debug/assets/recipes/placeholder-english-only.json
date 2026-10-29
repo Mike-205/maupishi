@@ -1,0 +1,29 @@
+{
+  "id": "placeholder-english-only",
+  "verified": false,
+  "name": { "en": "PLACEHOLDER English-only recipe" },
+  "description": { "en": "PLACEHOLDER description.", "sw": "" },
+  "region": "COAST",
+  "categories": ["SNACK"],
+  "occasions": ["STUDENT_FRIENDLY"],
+  "prepMinutes": 5,
+  "cookMinutes": 5,
+  "servings": 2,
+  "credit": "PLACEHOLDER credit",
+  "ingredients": [
+    {
+      "name": { "en": "PLACEHOLDER to-taste ingredient" }
+    },
+    {
+      "name": { "en": "PLACEHOLDER local unit with no known equivalent" },
+      "quantity": 1,
+      "unit": "HANDFUL",
+      "approxMetricUnknown": true
+    }
+  ],
+  "steps": [
+    {
+      "text": { "en": "PLACEHOLDER step.", "sw": "   " }
+    }
+  ]
+}

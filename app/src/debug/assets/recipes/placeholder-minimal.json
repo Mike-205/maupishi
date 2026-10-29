@@ -1,0 +1,22 @@
+{
+  "id": "placeholder-minimal",
+  "name": { "en": "PLACEHOLDER minimal recipe" },
+  "description": { "en": "PLACEHOLDER description." },
+  "region": "NAIROBI",
+  "prepMinutes": 1,
+  "cookMinutes": 1,
+  "servings": 1,
+  "credit": "PLACEHOLDER credit",
+  "ingredients": [
+    {
+      "name": { "en": "PLACEHOLDER counted ingredient" },
+      "quantity": 3,
+      "unit": "PIECE"
+    }
+  ],
+  "steps": [
+    {
+      "text": { "en": "PLACEHOLDER step." }
+    }
+  ]
+}
