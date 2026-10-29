@@ -33,7 +33,14 @@ android {
             "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    androidResources {
+        localeFilters += listOf("en", "sw")
+    }
+
     buildTypes {
+        debug {
+            applicationIdSuffix = ".debug"
+        }
         release {
             optimization {
                 enable =
