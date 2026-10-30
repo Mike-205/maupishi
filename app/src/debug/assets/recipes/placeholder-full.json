@@ -1,0 +1,52 @@
+{
+  "id": "placeholder-full",
+  "verified": false,
+  "name": { "en": "PLACEHOLDER full recipe", "sw": "PLACEHOLDER (sw) full recipe" },
+  "description": { "en": "PLACEHOLDER description.", "sw": "PLACEHOLDER (sw) description." },
+  "region": "NATIONWIDE",
+  "community": "PLACEHOLDER community",
+  "categories": ["MAIN", "SOUP_STEW"],
+  "occasions": ["EVERYDAY", "BUDGET_MEAL"],
+  "allergens": ["PEANUTS", "DAIRY"],
+  "prepMinutes": 10,
+  "cookMinutes": 20,
+  "servings": 4,
+  "cost": {
+    "minKes": 100,
+    "maxKes": 200,
+    "basis": { "en": "PLACEHOLDER cost basis", "sw": "PLACEHOLDER (sw) cost basis" }
+  },
+  "safetyNote": { "en": "PLACEHOLDER safety note", "sw": "PLACEHOLDER (sw) safety note" },
+  "culturalNote": { "en": "PLACEHOLDER cultural note", "sw": "PLACEHOLDER (sw) cultural note" },
+  "credit": "PLACEHOLDER credit",
+  "ingredients": [
+    {
+      "group": { "en": "PLACEHOLDER group", "sw": "PLACEHOLDER (sw) group" },
+      "name": { "en": "PLACEHOLDER metric ingredient", "sw": "PLACEHOLDER (sw) metric ingredient" },
+      "quantity": 250,
+      "unit": "G",
+      "prepNote": { "en": "PLACEHOLDER prep note", "sw": "PLACEHOLDER (sw) prep note" },
+      "substitution": { "en": "PLACEHOLDER substitution", "sw": "PLACEHOLDER (sw) substitution" }
+    },
+    {
+      "name": { "en": "PLACEHOLDER kitchen-unit ingredient", "sw": "PLACEHOLDER (sw) kitchen-unit ingredient" },
+      "quantity": 1.5,
+      "unit": "CUP"
+    },
+    {
+      "name": { "en": "PLACEHOLDER local-unit ingredient", "sw": "PLACEHOLDER (sw) local-unit ingredient" },
+      "quantity": 2,
+      "unit": "KIKOMBE",
+      "approxMetric": { "amount": 300, "unit": "ML" }
+    }
+  ],
+  "steps": [
+    {
+      "text": { "en": "PLACEHOLDER step with a timer.", "sw": "PLACEHOLDER (sw) step with a timer." },
+      "timerSeconds": 600
+    },
+    {
+      "text": { "en": "PLACEHOLDER step without a timer.", "sw": "PLACEHOLDER (sw) step without a timer." }
+    }
+  ]
+}

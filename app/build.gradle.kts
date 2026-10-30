@@ -5,6 +5,9 @@ plugins {
     alias(
         libs.plugins.kotlin.compose
     )
+    alias(
+        libs.plugins.kotlin.serialization
+    )
 }
 
 android {
@@ -89,6 +92,9 @@ dependencies {
     )
     implementation(
         libs.androidx.core.ktx
+    )
+    implementation(
+        libs.kotlinx.serialization.json
     )
     implementation(
         libs.androidx.lifecycle.runtime.ktx
