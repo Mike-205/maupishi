@@ -1,0 +1,79 @@
+{
+  "id": "placeholder-chapati",
+  "verified": false,
+  "name": { "en": "PLACEHOLDER chapati" },
+  "description": { "en": "PLACEHOLDER: layered, pan-fried flatbread. Trial file for the recipe template." },
+  "region": "NATIONWIDE",
+  "categories": ["SIDE"],
+  "occasions": ["EVERYDAY"],
+  "allergens": ["GLUTEN", "DAIRY"],
+  "prepMinutes": 40,
+  "cookMinutes": 30,
+  "servings": 15,
+  "safetyNote": { "en": "PLACEHOLDER: dairy applies only if ghee or butter is used for layering." },
+  "credit": "PLACEHOLDER credit",
+  "ingredients": [
+    {
+      "name": { "en": "PLACEHOLDER all-purpose flour" },
+      "quantity": 6,
+      "unit": "CUP",
+      "approxMetric": { "amount": 895, "unit": "G" },
+      "prepNote": { "en": "PLACEHOLDER: extra for dusting" }
+    },
+    {
+      "name": { "en": "PLACEHOLDER salt" },
+      "quantity": 1,
+      "unit": "TBSP"
+    },
+    {
+      "name": { "en": "PLACEHOLDER sugar" },
+      "quantity": 1,
+      "unit": "TBSP"
+    },
+    {
+      "name": { "en": "PLACEHOLDER lukewarm water" },
+      "quantity": 3,
+      "unit": "CUP",
+      "prepNote": { "en": "PLACEHOLDER: up to 4 cups, added as needed" }
+    },
+    {
+      "name": { "en": "PLACEHOLDER cooking oil" },
+      "quantity": 1,
+      "unit": "TBSP",
+      "prepNote": { "en": "PLACEHOLDER: for kneading" }
+    },
+    {
+      "name": { "en": "PLACEHOLDER oil, ghee or butter" },
+      "prepNote": { "en": "PLACEHOLDER: for layering and pan-frying, no set amount" }
+    }
+  ],
+  "steps": [
+    {
+      "text": { "en": "PLACEHOLDER: whisk the flour, salt and sugar. Add the water gradually until a sticky dough forms." }
+    },
+    {
+      "text": { "en": "PLACEHOLDER: let the dough rest." },
+      "timerSeconds": 300
+    },
+    {
+      "text": { "en": "PLACEHOLDER: knead on a floured surface, working in the oil until the dough is soft." }
+    },
+    {
+      "text": { "en": "PLACEHOLDER: rest the dough again." },
+      "timerSeconds": 300
+    },
+    {
+      "text": { "en": "PLACEHOLDER: divide into golf-ball-sized pieces." }
+    },
+    {
+      "text": { "en": "PLACEHOLDER: roll each piece to an oval, spread with fat, dust with flour, roll up like a cinnamon roll and tuck the end." }
+    },
+    {
+      "text": { "en": "PLACEHOLDER: roll each coil flat into a circle without over-stretching." }
+    },
+    {
+      "text": { "en": "PLACEHOLDER: cook on an oiled hot pan until it bubbles, flip, brush with oil, flip again and cook until puffed and golden." },
+      "timerSeconds": 30
+    }
+  ]
+}
