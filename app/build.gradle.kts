@@ -8,6 +8,12 @@ plugins {
     alias(
         libs.plugins.kotlin.serialization
     )
+    alias(
+        libs.plugins.ksp
+    )
+    alias(
+        libs.plugins.androidx.room
+    )
 }
 
 android {
@@ -69,6 +75,12 @@ android {
     }
 }
 
+room {
+    schemaDirectory(
+        "$projectDir/schemas"
+    )
+}
+
 dependencies {
     implementation(
         platform(
@@ -99,8 +111,26 @@ dependencies {
     implementation(
         libs.androidx.lifecycle.runtime.ktx
     )
+    implementation(
+        libs.androidx.room.runtime
+    )
+    implementation(
+        libs.androidx.room.ktx
+    )
+    ksp(
+        libs.androidx.room.compiler
+    )
     testImplementation(
         libs.junit
+    )
+    testImplementation(
+        libs.robolectric
+    )
+    testImplementation(
+        libs.androidx.test.core
+    )
+    testImplementation(
+        libs.kotlinx.coroutines.test
     )
     androidTestImplementation(
         platform(
