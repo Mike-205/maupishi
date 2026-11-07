@@ -31,6 +31,17 @@ abstract class RecipeDao {
     @Query("DELETE FROM recipes WHERE id = :id")
     abstract suspend fun deleteById(id: String)
 
+    @Query("SELECT id FROM recipes WHERE source = :source")
+    abstract suspend fun idsBySource(source: String): List<String>
+
+    /** Which of [ids] belong to a recipe that is not from [source]. */
+    @Query("SELECT id FROM recipes WHERE id IN (:ids) AND source != :source")
+    abstract suspend fun idsNotFromSource(ids: List<String>, source: String): List<String>
+
+    /** Deletes the recipe only if it is from [source], so content updates cannot remove other rows. */
+    @Query("DELETE FROM recipes WHERE id = :id AND source = :source")
+    abstract suspend fun deleteByIdAndSource(id: String, source: String)
+
     /**
      * Inserts the recipe or updates it in place, then replaces all of its
      * child rows, all in one transaction. The recipe row is updated rather
